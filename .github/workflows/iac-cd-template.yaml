@@ -37,7 +37,7 @@ on:
         default: ''
       root_module_folder_relative_path:
         description: 'Root Module Folder Relative Path'
-        default: '.'
+        default: './infrastructure'
         type: string
       terraform_cli_version:
         description: 'Terraform CLI Version'
